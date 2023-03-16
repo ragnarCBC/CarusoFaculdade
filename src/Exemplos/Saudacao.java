@@ -12,6 +12,6 @@ public class Saudacao {
         System.out.print("Enter your message: ");
         String massage = scan.nextLine();
         System.out.println("You message is: " + massage);
-
+        scan.close();
     }
 }
