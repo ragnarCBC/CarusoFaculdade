@@ -7,11 +7,11 @@ public class Saudacao {
 
         System.out.println("Welcome to java programming");
 
-        Scanner scan = new Scanner(System.in);
+        Scanner keyboard = new Scanner(System.in);
 
-        System.out.print("Enter your message: ");
-        String massage = scan.nextLine();
-        System.out.println("You message is: " + massage);
-        scan.close();
+        System.out.print("Type your message here: ");
+        String massage = keyboard.nextLine();
+        System.out.println("Your message is: " + massage);
+        keyboard.close();
     }
 }
