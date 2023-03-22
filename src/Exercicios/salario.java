@@ -4,15 +4,26 @@ public class salario {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        double salario;
-        double porcetengem;
-        System.out.print("digite o salario:");
-        salario = scan.nextDouble();
-        System.out.println("seu salario é:" + salario);
 
-        System.out.print("digite a porcentagem:");
-        porcetengem = scan.nextDouble();
-        System.out.println(salario % porcetengem);
+        double salario;
+        double ajuste;
+
+        System.out.println("Qual o seu salario?: ");
+        salario = scan.nextDouble();
+
+        System.out.println("Seu salario é: " + salario);
+
+        System.out.println("Escolha uma porcentagem para um reajuste salarial");
+        ajuste = scan.nextDouble();
+
+        double valorSalario = salario;
+        double porcentagem = ajuste / 100;
+
+
+        double resultado = salario + (salario * porcentagem);
+
+
+        System.out.println("Valor do salário: " + "Porcentagem: " + resultado + "%");
 
     }
 }
