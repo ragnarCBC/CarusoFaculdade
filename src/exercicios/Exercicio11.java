@@ -1,6 +1,6 @@
-package Exercicios;
+package exercicios;
 import java.util.Scanner;
-public class aluno {
+public class Exercicio11 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         double nota1;

@@ -1,6 +1,6 @@
-package Exercicios;
+package exercicios;
 import java.util.Scanner;
-public class salario {
+public class Exercicio08 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
@@ -8,15 +8,15 @@ public class salario {
         double salario;
         double ajuste;
 
-        System.out.println("Qual o seu salario?: ");
+        System.out.print("Qual o seu salario?: ");
         salario = scan.nextDouble();
 
         System.out.println("Seu salario é: " + salario);
 
-        System.out.println("Escolha uma porcentagem para um reajuste salarial");
+        System.out.print("Escolha uma porcentagem para um reajuste salarial");
         ajuste = scan.nextDouble();
 
-        double valorSalario = salario;
+
         double porcentagem = ajuste / 100;
 
 

@@ -1,6 +1,6 @@
-package Exercicios;
+package exercicios;
 import java.util.Scanner;
-public class Eleicao {
+public class Exercicio07 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
