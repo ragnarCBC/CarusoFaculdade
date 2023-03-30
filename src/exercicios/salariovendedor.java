@@ -17,11 +17,7 @@ public class salariovendedor {
         System.out.print("Digite o valor da comissão por carro vendido: ");
         double comissaoPorCarro = sc.nextDouble();
 
-        double comissaoTotal = comissaoPorCarro * numCarrosVendidos;
-        double bonus = valorTotalVendas * 0.05;
-        double salarioFinal = salarioFixo + comissaoTotal + bonus;
 
-        System.out.println("O salário final do vendedor é: " + salarioFinal);
 
         sc.close();
     }
