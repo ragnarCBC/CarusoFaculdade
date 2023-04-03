@@ -3,7 +3,7 @@ package exercicios;
 import java.util.Scanner;
 
 public class ifelse {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("informe um numero inteiro");
         int numero = keyboard.nextInt();
@@ -13,4 +13,6 @@ public class ifelse {
         } else {
             System.out.println("o numero é impar");
         }
-        keyboard.close();}
+        keyboard.close();
+    }
+}
