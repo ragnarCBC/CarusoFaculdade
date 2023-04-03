@@ -12,7 +12,7 @@ public class Exercicio11 {
         nota2 = scan.nextDouble();
         System.out.print("digite a nota 3:");
         nota3 = scan.nextDouble();
-        double total = (nota1 + nota2 + nota3) / 3 ;
+        double total = (nota1 * 2) + (nota2 * 3) + (nota3* 5) / 10 ;
         System.out.print("nota final é:" + total);
 
 
