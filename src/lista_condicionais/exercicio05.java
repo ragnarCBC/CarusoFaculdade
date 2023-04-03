@@ -2,7 +2,7 @@ package lista_condicionais;
 
 import java.util.Scanner;
 
-public class exercicio03 {
+public class exercicio05 {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("informe a quantidade de estoque");
